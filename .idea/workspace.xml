@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d846c4-1c13-4dd4-a2f5-3d7a8920a5b6" name="Default Changelist" comment="" />
+    <list default="true" id="40d846c4-1c13-4dd4-a2f5-3d7a8920a5b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextCheck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Key" beforeDir="false" afterPath="$PROJECT_DIR$/src/key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Assignment/Problem1$getFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Assignment/Problem1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Assignment/foo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Assignment/other.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Assignment/sample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Buffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParallelProgramming/Buffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Chatbot/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Chatbot/ClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Chatbot/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Chatbot/ServerConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Chunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParallelProgramming/Chunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/EncryptHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParallelProgramming/EncryptHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/META-INF/ParallelProgramming.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParallelProgramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/ReadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParallelProgramming/ReadHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/AccountWithoutSync$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/AccountWithoutSync$AddAPennyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/AccountWithoutSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/PrintChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/PrintNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/ThreadsExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/ThreadsExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week1/ThreadsExample3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync$AddAPennyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync2$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync2$AddAPennyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync3$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync3$AddAPennyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithSync3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithoutSync$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithoutSync$AddAPennyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/AccountWithoutSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/Countdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/CountdownThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week2/SynchronizationEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week3/ThreadColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week3/ThreadCooperation$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week3/ThreadCooperation$DepositTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week3/ThreadCooperation$WithdrawTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week3/ThreadCooperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/CyclicBarrierExample$AggregatorThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/CyclicBarrierExample$NumberCruncherThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/CyclicBarrierExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/ParallelMax$MaxTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/ParallelMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/ProducerConsumerUsingBlockingQueue$ConsumerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/ProducerConsumerUsingBlockingQueue$ProducerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/ProducerConsumerUsingBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/SemaphoreTest$MyATMThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/Week4/SemaphoreTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParallelProgramming/WriteHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParallelProgramming/WriteHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EncryptHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +86,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZtDiK8XPDrCiZ2anGrJyCnNkhV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,16 +97,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../del" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JavaCode\Java-Encryption\src" />
       <recent name="C:\JavaCode\ParallelProgramming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Week2" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaCode\Java-Encryption" />
       <recent name="C:\JavaCode\ParallelProgramming" />
     </key>
   </component>
@@ -139,38 +214,52 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1587545506635" />
-    <state x="465" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588767928161">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="523" y="190" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588860641464">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588767928161" />
+    <state x="523" y="190" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1588860641464" />
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1588513738757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588513738757" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1588691663547">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588859212438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1588859212438" />
+    <state x="407" y="8" key="CommitChangelistDialog2" timestamp="1588861653693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588861653693" />
+    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1588861287700">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588691663547" />
-    <state width="1323" height="146" key="GridCell.Tab.0.bottom" timestamp="1588857843583">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588861287700" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588859943294">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588857843583" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1586199370014" />
-    <state width="1323" height="146" key="GridCell.Tab.0.center" timestamp="1588857843583">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588859943294" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588859943294">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="146" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588857843583" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1586199370014" />
-    <state width="1323" height="146" key="GridCell.Tab.0.left" timestamp="1588857843580">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588859943294" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588859943289">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="146" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588857843580" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1586199370014" />
-    <state width="1323" height="146" key="GridCell.Tab.0.right" timestamp="1588857843583">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588859943289" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588859943294">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="146" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588857843583" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1586199370014" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588859943294" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1588105722288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -187,6 +276,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588105722288" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588861614903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1588861614903" />
     <state x="65" y="0" key="new project wizard" timestamp="1588691676564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

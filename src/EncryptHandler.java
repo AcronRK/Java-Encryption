@@ -6,15 +6,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class EncryptHandler implements Runnable{
 
     static byte[] key;
-    static {
-        try {
-            // import the key from the file
-            key = getKey("Key");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
+
+    String ACTION;
     final static int SHIFT = 1;
     final static int[] permutation = {6, 3, 16, 11, 7, 14, 8, 5, 15, 1, 2, 4, 13, 9, 10, 12};
     // the index of the first array is the value at the index of the second array
@@ -23,9 +17,22 @@ public class EncryptHandler implements Runnable{
     Buffer<Chunk> writeBuffer;
     static Lock lock = new ReentrantLock();
 
-    public EncryptHandler(Buffer<Chunk> readBuffer, Buffer<Chunk> writeBuffer){
+
+    public EncryptHandler(Buffer<Chunk> readBuffer, Buffer<Chunk> writeBuffer, String file_name_key, String action){
         this.readBuffer = readBuffer;
         this.writeBuffer = writeBuffer;
+        this.ACTION = action;
+
+        //reading the key from the file
+        {
+            try {
+                // import the key from the file
+                key = getKey(file_name_key);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
 
     @Override
@@ -37,13 +44,13 @@ public class EncryptHandler implements Runnable{
                 int chunk_position = c.position;
                 byte[] chunk = c.chunk;
 
-                try {
-                    encrypt(chunk);
-                    //decrypt(chunk);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                Chunk newChunk = new Chunk(chunk_position, chunk);
+            // check if file has to be encrypted or decrypted
+            if(ACTION.equals("encrypt"))
+                encrypt(chunk);
+            else // decrypt
+                decrypt(chunk);
+
+            Chunk newChunk = new Chunk(chunk_position, chunk);
                 writeBuffer.write(newChunk);
             lock.unlock();
         }
@@ -145,25 +152,25 @@ public class EncryptHandler implements Runnable{
         return chunk;
     }
 
-    public static byte[] encrypt(byte[] chunk) throws IOException {
+    public static byte[] encrypt(byte[] chunk){
         for(int i = 0; i < 256; i++) {
             xor(chunk, key);
             key = rotateKeyLeft(key, SHIFT);
             substituteEncrypt(chunk);
             permute(chunk, true);
         }
-        //updateKey("Key", key);
+        //updateKey("key", key);
         return chunk;
     }
 
-    public static byte[] decrypt(byte[] chunk) throws IOException {
+    public static byte[] decrypt(byte[] chunk){
         for(int i = 0; i < 256; i++) {
             permute(chunk, false);
             substituteDecrypt(chunk);
             key = rotateKeyRight(key, SHIFT);
             xor(chunk, key);
         }
-        //updateKey("Key", key);
+        //updateKey("key", key);
         return chunk;
     }
 

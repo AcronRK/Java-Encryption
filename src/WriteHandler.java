@@ -35,6 +35,10 @@ public class WriteHandler implements Runnable {
             // to get the position of the chunk in the character array we have to divide by the buffer size
             text_visualization[c.position / 32] = 'E';
             System.out.println(text_visualization);
+
+            // check if all the file has been encrypted or decrypted
+            if(checkEnd(text_visualization))
+                System.exit(-1);
         }
 
     }
@@ -48,6 +52,16 @@ public class WriteHandler implements Runnable {
         } catch (Exception e) {
             System.out.println(e.toString());
         }
+    }
+
+    // this function will return true if all the file has been encrypted
+    // Going to be used to terminate the program
+    private boolean checkEnd(char[] text_visualization){
+        for (char c : text_visualization) {
+            if (c == 'D')
+                return false;
+        }
+        return true;
     }
 
 }
