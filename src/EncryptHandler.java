@@ -156,6 +156,7 @@ public class EncryptHandler implements Runnable{
         for(int i = 0; i < 256; i++) {
             xor(chunk, key);
             key = rotateKeyLeft(key, SHIFT);
+            System.out.println(Arrays.toString(key));
             substituteEncrypt(chunk);
             permute(chunk, true);
         }

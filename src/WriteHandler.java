@@ -7,7 +7,7 @@ public class WriteHandler implements Runnable {
     final static int BUFFER = 1024;
     private String file_name;
     Buffer<Chunk> writeBuffer ;
-
+    Lock lock=new ReentrantLock();
     int numberOfChunks;
     char[] text_visualization;
 
@@ -26,6 +26,7 @@ public class WriteHandler implements Runnable {
     @Override
     public void run() {
         while(true){
+        	lock.lock();
             Chunk c = writeBuffer.read();
             int pos = c.position;
             byte[] chunk = c.chunk;
@@ -39,6 +40,7 @@ public class WriteHandler implements Runnable {
             // check if all the file has been encrypted or decrypted
             if(checkEnd(text_visualization))
                 System.exit(-1);
+            lock.unlock();
         }
 
     }
